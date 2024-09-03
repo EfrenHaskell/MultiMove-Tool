@@ -6,7 +6,7 @@ Still in devlopment and has not been fully fleshed out and debug (most features 
 > - Moving files by dictionary definition
 > - Currently designed for windows with batch file
 > - Add multimove.cmd to PATH for easiest use
-## Move by Dictionary
+## Code Examples
 > ```
 > :: To move a set of files from one destination to another by dm
 > .\multimove -l dm des="./example_folder/example.txt, ./example_folder2/example1.txt" src="./example.txt, ./example1.txt"
@@ -16,6 +16,8 @@ Still in devlopment and has not been fully fleshed out and debug (most features 
 > 
 > :: To move all txt files to a single folder by rem with -sd
 > .\multimove -l rem -sd des="./example_folder" src="./example.txt, ./example1.txt"
+>
+> :: All commands take the form <function> <flag1> ... <flag*> <des|reg|sep="val1, ... , val*">*
 > 
 ## Utilization
 > MultiMove-Tool provides two main ways to interact with the utility
