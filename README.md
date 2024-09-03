@@ -6,6 +6,17 @@ Still in devlopment and has not been fully fleshed out and debug (most features 
 > - Moving files by dictionary definition
 > - Currently designed for windows with batch file
 > - Add multimove.cmd to PATH for easiest use
+## Move by Dictionary
+> ```
+> :: To move a set of files from one destination to another by dm
+> .\multimove -l dm des="./example_folder/example.txt, ./example_folder2/example1.txt" src="./example.txt, ./example1.txt"
+> 
+> :: The above command but with caching (though in reality caching in lite mode has no real purpose)
+> .\multimove -l dm -c des="./example_folder/example.txt, ./example_folder2/example1.txt" src="./example.txt, ./example1.txt"
+> 
+> :: To move all txt files to a single folder by rem with -sd
+> .\multimove -l rem -sd des="./example_folder" src="./example.txt, ./example1.txt"
+> 
 ## Utilization
 > MultiMove-Tool provides two main ways to interact with the utility
 > - MultiMoveLite
@@ -41,3 +52,4 @@ Still in devlopment and has not been fully fleshed out and debug (most features 
 > - Movement templating with file format implementation?
 > - Extensive debugging and error handling fixes
 > - Potential restructuring of __Move class
+> - Command chaining
