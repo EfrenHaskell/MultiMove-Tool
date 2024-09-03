@@ -4,6 +4,7 @@ MultiMove-Tool is a developer utility for moving multiple files
 > - Moving files by a regular expression
 > - Moving files by dictionary definition
 > - Currently designed for windows with batch file
+> - Add multimove.cmd to PATH for easiest use
 ## Utilization
 > MultiMove-Tool provides two main ways to interact with the utility
 > - MultiMoveLite
