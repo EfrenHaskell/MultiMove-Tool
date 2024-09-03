@@ -24,7 +24,7 @@ MultiMove-Tool is a developer utility for moving multiple files
 > - src \- Source Specifier
 >   - Source and Destination Specifiers are to be passed as lists formatted
 >      `des="example.txt, example2.txt, example3.txt"`
-> As the three are command line arguments, be careful with spacing, only use spaces in quotes, there should be no separation between an arg specifier, the equal sign and its value
+>   - As the three are command line arguments, be careful with spacing, only use spaces in quotes, there should be no separation between an arg specifier, the equal sign and its value
 ## Extra Functionality
 > undo - if move commands were cached with \-c specifier, moves can be undone
 > prev - shows a preview of cached moves
