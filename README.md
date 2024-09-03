@@ -1,5 +1,6 @@
 # MultiMove-Tool
 MultiMove-Tool is a developer utility for moving multiple files
+Still in devlopment and has not been fully fleshed out and debug (most features are functional, however)
 ## Features
 > - Moving files by a regular expression
 > - Moving files by dictionary definition
@@ -32,4 +33,11 @@ MultiMove-Tool is a developer utility for moving multiple files
 > - vre - verify regular expression (YET TO BE IMPLEMENTED but is included in multimove.py and can be interacted with Pythonically)
 > - vm - verify move (YET TO BE IMPLEMENTED but is included in multimove.py and can be interacted with Pythonically)
 > - quit - to quit the emulator
-
+## TODO
+> - Documentation for client.py
+> - Implementation of vre and vm commands
+> - Extensive clean up of client program
+> - More flags and features
+> - Movement templating with file format implementation?
+> - Extensive debugging and error handling fixes
+> - Potential restructuring of __Move class
